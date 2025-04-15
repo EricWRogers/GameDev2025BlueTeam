@@ -21,10 +21,6 @@ public class PlayerController : MonoBehaviour
             Vector2 direction = new Vector2(h, v).normalized;
             rigidbody2D.AddForce(direction * speed);
         }
-        /*Vector2 direction = new Vector2(h, v);
-        if (direction != Vector2.zero)
-        {
-            rigidbody2D.AddForce(direction.normalized * speed);
-        }*/
+        
     }
 }
