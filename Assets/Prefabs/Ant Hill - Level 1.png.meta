@@ -104,9 +104,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 414
-        height: 413
+        y: 249
+        width: 413
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,11 +121,121 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Ant Hill - Level 1_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 305
+        width: 291
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3ffb33164673848be3203c8a810ea9
+      internalID: -1991351583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant Hill - Level 1_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 333
+        width: 266
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aead2b6b8d68e174bbea617b168f2418
+      internalID: 1436265044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant Hill - Level 1_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 412
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8912f912465072241bacb0e3f0673905
+      internalID: 496882038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant Hill - Level 1_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74
+        width: 414
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f0c8acb078b5b499e4ce485ecd83f5
+      internalID: 1669611886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant Hill - Level 1_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 413
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfb5e6e5a9dfab478c81206def8a162
+      internalID: -1341512870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e5526357dc1c58245929004825822094
     internalID: 0
     vertices: []
     indices: 
@@ -134,7 +244,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ant Hill - Level 1_0: 3954724483915995328
+      Ant Hill - Level 1_1: -1991351583
+      Ant Hill - Level 1_2: 1436265044
+      Ant Hill - Level 1_3: 496882038
+      Ant Hill - Level 1_4: 1669611886
+      Ant Hill - Level 1_5: -1341512870
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
