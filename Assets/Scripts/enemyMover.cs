@@ -20,8 +20,12 @@ public class enemyMover : MonoBehaviour
     {
         if (other.tag == "Wall")
         {
-            //transform.Rotate(0 , 180, 0);
-            m = m * -1;
+            transform.Rotate(0 , 180, 0);
+            //m = m * -1;
+        }
+        if (other.tag == "Player")
+        {
+            //
         }
     }
 
