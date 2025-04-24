@@ -1,15 +1,17 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.EventSystems;
 
 public class PlayerMovement : MonoBehaviour
 {
     public GameObject character;
+    public GameObject playerStatsObject;
     public float moveSpeed = 3.25f;
     public float jumpForce;
     public float doubleJumpForce;
-    public int health = 10;
     public Rigidbody2D rb;
 
+    private PlayerStats playerStats;
     private Vector2 playerInput;
     private bool shouldJump;
     private bool canJump;
@@ -24,6 +26,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
+        playerStats = playerStatsObject.GetComponent<PlayerStats>();
         rb = character.GetComponent<Rigidbody2D>();
     }
 
@@ -40,10 +43,15 @@ public class PlayerMovement : MonoBehaviour
             shouldJump = true;
             canDoubleJump = true;
         }
-        if (canDoubleJump && Input.GetKeyDown(KeyCode.E))
+        if (canDoubleJump && Input.GetKeyDown(KeyCode.E) && playerStats.doubleJumpPU)
         {
+            Debug.Log("doubleJump is true");
             canDoubleJump = false;
             shouldDoubleJump = true;
+        }
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            
         }
     }
 
