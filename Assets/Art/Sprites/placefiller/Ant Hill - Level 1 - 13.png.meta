@@ -1,19 +1,13 @@
 fileFormatVersion: 2
-<<<<<<<< Updated upstream:Assets/Art/Sprites/placefiller/Slash.png.meta
-guid: 358b60be6a7c87d45971de059150f758
+guid: 9dce59206c3bb194cbd18e0de75ba367
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4176362632249098406
-    second: Slash_0
-========
-guid: cf0ef9c31e3890c4b868fca4fe049061
-TextureImporter:
-  internalIDToNameTable:
+      213: -2601980401709172005
+    second: Ant Hill - Level 1 - 13_0
   - first:
-      213: -479121739700690102
-    second: Ant Hill - Level 1 - 10_0
->>>>>>>> Stashed changes:Assets/Art/Sprites/placefiller/Ant Hill - Level 1 - 10.png.meta
+      213: 4248774610102304352
+    second: Ant Hill - Level 1 - 13_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,23 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-<<<<<<<< Updated upstream:Assets/Art/Sprites/placefiller/Slash.png.meta
-      name: Slash_0
+      name: Ant Hill - Level 1 - 13_0
       rect:
         serializedVersion: 2
-        x: 72
-        y: 101
-        width: 203
-        height: 201
-========
-      name: Ant Hill - Level 1 - 10_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1656
-        height: 247
->>>>>>>> Stashed changes:Assets/Art/Sprites/placefiller/Ant Hill - Level 1 - 10.png.meta
+        x: 900
+        y: 471
+        width: 756
+        height: 559
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,13 +118,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<<< Updated upstream:Assets/Art/Sprites/placefiller/Slash.png.meta
-      spriteID: 6a04c6ccfab65f930800000000000000
-      internalID: 4176362632249098406
-========
-      spriteID: a4329f4f051d959f0800000000000000
-      internalID: -479121739700690102
->>>>>>>> Stashed changes:Assets/Art/Sprites/placefiller/Ant Hill - Level 1 - 10.png.meta
+      spriteID: bdab89b4c98e3ebd0800000000000000
+      internalID: -2601980401709172005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant Hill - Level 1 - 13_1
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 1024
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06eb8d53ffda6fa30800000000000000
+      internalID: 4248774610102304352
       vertices: []
       indices: 
       edges: []
