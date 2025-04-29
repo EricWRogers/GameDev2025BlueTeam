@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 96ef3e3a111e4024287bf2549bf298d8
+guid: cf0ef9c31e3890c4b868fca4fe049061
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 612967841904249482
-    second: Ant Hill - Level 1 - 6_0
+      213: -479121739700690102
+    second: Ant Hill - Level 1 - 10_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ant Hill - Level 1 - 6_0
+      name: Ant Hill - Level 1 - 10_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 962
-        width: 516
-        height: 257
+        y: 0
+        width: 1656
+        height: 247
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a8ac07b2103b18800800000000000000
-      internalID: 612967841904249482
+      spriteID: a4329f4f051d959f0800000000000000
+      internalID: -479121739700690102
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Ant Hill - Level 1 - 6_0: 612967841904249482
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
