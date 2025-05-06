@@ -10,6 +10,8 @@ TagManager:
   - DoubleJumping
   - midAir
   - FxTemporaire
+  - Enemy
+  - Wall
   layers:
   - Default
   - TransparentFX
