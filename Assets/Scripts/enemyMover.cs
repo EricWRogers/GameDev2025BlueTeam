@@ -3,9 +3,11 @@ using UnityEngine;
 
 public class enemyMover : MonoBehaviour
 {
+    public EnemyAttack EA;
     public float m = .01f;
 
     public bool target = false;
+    public GameObject attackthing;
     void Start()
     {
         
@@ -15,13 +17,16 @@ public class enemyMover : MonoBehaviour
     {
         if (target == true)
         {
-            
             transform.Translate(0,0,0);
+            attackthing.SetActive(true);
+
         }
 
         else
         {
             transform.Translate( m , 0 , 0);
+            attackthing.SetActive(false);
+
         }
     }
     

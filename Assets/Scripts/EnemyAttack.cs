@@ -8,6 +8,8 @@ public class EnemyAttack : MonoBehaviour
     public PlayerStats playerStats;
     public int AttDamage = 1;
 
+    public bool Inrange = false;
+
     public bool hitted = false;
 
     void Update()
@@ -26,6 +28,7 @@ public class EnemyAttack : MonoBehaviour
         if (other.tag == "Player")
         {
             hitted = true;
+            Inrange = true;
             
         }
     }
@@ -34,6 +37,7 @@ public class EnemyAttack : MonoBehaviour
         if (other.tag == "player")
         {
             hitted = false;
+            Inrange = false;
         }
     }
 }
