@@ -654,17 +654,21 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1581707534}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 765dd07d522c0fc45b6e8546714a0d8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   health: 10
+  strength: 1
   doubleJumpPU: 0
   wallClimbPU: 0
   strengthPU: 0
   dashPU: 0
   airDashPU: 0
+  graphic: {fileID: 0}
+  flashLine: 2
+  timer: {fileID: 0}
 --- !u!58 &1581707543
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -849,7 +853,7 @@ PrefabInstance:
       objectReference: {fileID: 1581707542}
     - target: {fileID: 7925980104872282875, guid: ecd9b0449ea51514c8d3824038a8fc72, type: 3}
       propertyPath: m_Name
-      value: Enemy placer
+      value: 'Enemy '
       objectReference: {fileID: 0}
     - target: {fileID: 8714907728411674420, guid: ecd9b0449ea51514c8d3824038a8fc72, type: 3}
       propertyPath: m_LocalPosition.x

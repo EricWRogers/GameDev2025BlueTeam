@@ -1,6 +1,5 @@
 using UnityEngine;
 using System.Collections;
-// Updated upstream
 using System.Collections.Generic;
 using SuperPupSystems.Helper;
 
@@ -10,14 +9,11 @@ public class PlayerStats : MonoBehaviour
 {
     public float health = 10f;
     public float strength = 1;
-//Updated upstream
-
     public bool doubleJumpPU = false;
     public bool wallClimbPU = false;
     public bool strengthPU = false;
     public bool dashPU = false;
     public bool airDashPU = false;
-// Updated upstream
     public SpriteRenderer graphic;
     public float flashLine = 2;
     public Timer timer;
@@ -42,13 +38,4 @@ public class PlayerStats : MonoBehaviour
         if (health <= flashLine)
             timer.StartTimer();
     }
-
-
-    
-    
-
-
-
-// Stashed changes
-
 }
