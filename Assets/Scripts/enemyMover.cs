@@ -37,7 +37,7 @@ public class enemyMover : MonoBehaviour
             transform.Rotate(0 , 180, 0);
             //m = m * -1;
         }
-        if (other.tag == "Player")
+        if (other.gameObject.name == "Player")
         {
             target = true;
         }
@@ -45,7 +45,7 @@ public class enemyMover : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D other)
     {
-        if (other.tag == "Player" && target == true)
+        if (other.gameObject.name == "Player" && target == true)
         {
             target = false;
         }
