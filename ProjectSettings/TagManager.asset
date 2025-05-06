@@ -46,5 +46,23 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: CaveBase
+    uniqueID: 3403384471
+    locked: 0
+  - name: Cave1
+    uniqueID: 4266456737
+    locked: 0
+  - name: Cave2
+    uniqueID: 3701853019
+    locked: 0
+  - name: Cave3
+    uniqueID: 3488617815
+    locked: 0
+  - name: Cave4
+    uniqueID: 3752548681
+    locked: 0
+  - name: Level
+    uniqueID: 1442242709
+    locked: 0
   m_RenderingLayers:
   - Default
