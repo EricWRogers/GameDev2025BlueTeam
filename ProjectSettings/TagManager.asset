@@ -9,6 +9,7 @@ TagManager:
   - onFloor
   - DoubleJumping
   - midAir
+  - FxTemporaire
   layers:
   - Default
   - TransparentFX

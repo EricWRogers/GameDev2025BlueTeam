@@ -1,10 +1,10 @@
 using UnityEngine;
 using System.Collections;
-<<<<<<< Updated upstream
+// Updated upstream
 using System.Collections.Generic;
 using SuperPupSystems.Helper;
-=======
->>>>>>> Stashed changes
+
+// Stashed changes
 
 public class PlayerStats : MonoBehaviour
 {
@@ -17,7 +17,7 @@ public class PlayerStats : MonoBehaviour
     public bool strengthPU = false;
     public bool dashPU = false;
     public bool airDashPU = false;
-<<<<<<< Updated upstream
+// Updated upstream
     public SpriteRenderer graphic;
     public float flashLine = 2;
     public Timer timer;
@@ -42,7 +42,7 @@ public class PlayerStats : MonoBehaviour
         if (health <= flashLine)
             timer.StartTimer();
     }
-=======
+
 
     
     
@@ -50,5 +50,5 @@ public class PlayerStats : MonoBehaviour
 
 
 // Stashed changes
->>>>>>> Stashed changes
+
 }
