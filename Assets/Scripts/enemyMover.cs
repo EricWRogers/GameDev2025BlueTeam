@@ -5,6 +5,7 @@ public class enemyMover : MonoBehaviour
 {
     public float m = .01f;
 
+    public bool target = false;
     void Start()
     {
         
@@ -12,8 +13,16 @@ public class enemyMover : MonoBehaviour
 
     void Update()
     {
-        print(m);
-        transform.Translate( m , 0 , 0);
+        if (target == true)
+        {
+            
+            transform.Translate(0,0,0);
+        }
+
+        else
+        {
+            transform.Translate( m , 0 , 0);
+        }
     }
     
     void OnTriggerEnter2D(Collider2D other)
@@ -25,8 +34,15 @@ public class enemyMover : MonoBehaviour
         }
         if (other.tag == "Player")
         {
-            //
+            target = true;
         }
     }
 
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.tag == "Player" && target == true)
+        {
+            target = false;
+        }
+    }
 }
